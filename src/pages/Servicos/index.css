@@ -1,0 +1,145 @@
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #241103;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.info a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 55px;
+}
+
+.botao button{
+    background-color: rgb(201, 178, 79);
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+}
+
+.text h1{
+    font-size: 100px;
+    text-decoration: underline;
+    text-shadow: 4px 4px 5px black;
+}
+
+.text p{
+    margin-top: 50px;
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+}
+
+
+.table{
+    margin-top: 120px;
+}
+
+.table h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: 'arial';
+}
+
+table{
+    width: 100%;
+}
+
+td,th{
+    border: 2px solid #241103;
+    text-align: center;
+    padding: 10px;
+    width: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:nth-child(2n) {
+    background-color: #462e1e;
+}
+
+.cabe1{
+    background-color: #000000;
+    color: white;
+    
+}
+
+.cabe2{
+    background-color: #000000;
+    color: white;
+}
+
+.container4{
+    margin-top: 80px;
+    background-color: #241103;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.goumert{
+    position: absolute;
+    top: 115%;
+    left: 17%;
+}
+
+.icone1{
+    position: absolute;
+    top: 135%;
+    left: 19.7%;
+}
+
+.icone2{
+    position: absolute;
+    top: 136.6%;
+    left: 22.9%;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 90PX;
+    gap: 15px;
+}
+
+.informacoes a{
+    text-decoration: none;
+    color: white;
+}
+
+.aplicacoes{
+    position: absolute;
+    top: 257.6;
+    right: 18%;
+    margin-top: 60px;
+    gap: 190px;
+}

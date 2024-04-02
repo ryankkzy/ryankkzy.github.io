@@ -1,0 +1,310 @@
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #241103;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.info a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 55px;
+}
+
+.botao button{
+    background-color: rgb(201, 178, 79);
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+}
+
+.text h1{
+    font-size: 100px;
+    text-decoration: underline;
+    text-shadow: 4px 4px 5px black;
+}
+
+.text p{
+    margin-top: 50px;
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+}
+
+.prato{
+    font-size: 45px;
+    margin-top: 90px;
+    text-align: center;
+    color: #c6aa69;
+    font-family: 'quality';
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cartao{
+    display: inline-block;
+    border: 3px solid black;
+    width: 310px;
+    height: 510px;
+    color: black;
+    border-color: #241103;
+    border-radius: 20px;
+    margin: 90px 50px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.capa{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.cartao .brie-text h1{
+    color: #c6aa69;
+    font-family: Verdana;
+}
+
+.cartao .brie-text p{
+    font-size: 17px;
+    font-family: arial;
+}
+
+.cartao h1,p{
+    margin-top: 20px;
+}
+
+.cartao .camarao h1{
+     color: #c6aa69;
+     font-family: Verdana;
+}
+
+.cartao .camarao p{
+    font-size: 17px;
+    font-family: arial;
+}
+
+.destaques .des{
+    color: #7c3829;
+    font-family: arial;
+    font-size: 18px;
+    position: absolute;
+    top: 114%;
+    left: 16%;
+}
+
+.destaques .pet{
+    color: #7c3829;
+    font-family: arial;
+    font-size: 18px;
+    position: absolute;
+    top: 188%;
+    left: 16%;
+}
+
+
+.destaques{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: ghostwhite;
+}
+
+.dest{
+    display: inline-block;
+}
+
+.dest h1,p{
+    font-family: Verdana;
+}
+
+.dest img{
+    position: relative;
+    left: 70%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.mona h1{
+    position: absolute;
+    top: 122%;
+    left: 18%;
+}
+
+.mona p{
+    position: absolute;
+    top: 124%;
+    left: 18%;
+}
+
+.mona .preco{
+    position: absolute;
+    top: 127%;
+    left: 18%;
+}
+
+.palmito h1{
+    position: absolute;
+    top: 145%;
+    left: 18%;
+}
+
+.palmito p{
+    position: absolute;
+    top: 147%;
+    left: 18%;
+}
+
+.palmito .palm{
+    position: absolute;
+    top: 153%;
+    left: 18%;
+}
+
+.file h1{
+    position: absolute;
+    top: 168%;
+    left: 18%;
+}
+
+.file p{
+    position: absolute;
+    top: 170%;
+    left: 18%;
+}
+
+.file .fil{
+    position: absolute;
+    top: 176%;
+    left: 18%;
+}
+
+.batata h1{
+    position: absolute;
+    top: 194%;
+    left: 18%;
+}
+
+.batata p{
+    position: absolute;
+    top: 196%;
+    left: 18%;
+}
+
+.batata .bat{
+    position: absolute;
+    top: 199%;
+    left: 18%;
+}
+
+.paes h1{
+    position: absolute;
+    top: 217%;
+    left: 18%;
+}
+
+.paes p{
+    position: absolute;
+    top: 220%;
+    left: 18%;
+}
+
+.paes .pao{
+    position: absolute;
+    top: 223%;
+    left: 18%;   
+}
+
+.celviche h1{
+    position: absolute;
+    top: 243%;
+    left: 18%; 
+}
+
+.celviche p{
+    position: absolute;
+    top: 245%;
+    left: 18%; 
+}
+
+.celviche .cel{
+    position: absolute;
+    top: 248%;
+    left: 18%; 
+}
+
+.container4{
+    margin-top: 80px;
+    background-color: #241103;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.goumert{
+    position: absolute;
+    top: 270%;
+    left: 17%;
+}
+
+.icone1{
+    position: absolute;
+    top: 290%;
+    left: 19.7%;
+}
+
+.icone2{
+    position: absolute;
+    top: 291.6%;
+    left: 22.9%;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 112PX;
+    gap: 15px;
+}
+
+.informacoes a{
+    text-decoration: none;
+    color: white;
+}
+
+.aplicacoes{
+    position: absolute;
+    top: 257.6;
+    right: 18%;
+    margin-top: 70px;
+    gap: 190px;
+}

@@ -1,0 +1,166 @@
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #241103;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.info a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 55px;
+}
+
+.botao button{
+    background-color: #c9b24f;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+}
+
+.text h1{
+ font-size: 100px;
+ text-decoration: underline;
+ text-shadow: 4px 4px 5px black;
+}
+
+.text p{
+    margin-top: 50px;
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 100px;
+    display: inline-block;
+    background-color: ghostwhite;
+    width: 1000px;
+    height: 864.3px;
+    border-radius: 30px;
+}
+
+.card img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.card .sobre h1{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    right: 35%;
+    font-size: 30px;
+    color: #7c3829;
+    font-family: 'quality';
+}
+
+.card .sobre p{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 24.5%;
+    font-size: 21px;
+    line-height: 35px;
+    font-family: Verdana;
+}
+
+.container2{
+    margin-top: 150px;
+}
+
+.container2 h1{
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'quality';
+    color: #c6aa69;
+}
+
+.container2 .sub{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container2 .sub img{
+    border-radius: 10px;
+}
+
+
+.container4{
+    margin-top: 80px;
+    background-color: #241103;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.goumert{
+    position: absolute;
+    top: 195%;
+    left: 17%;
+}
+
+.icone1{
+    position: absolute;
+    top: 216%;
+    left: 19.7%;
+}
+
+.icone2{
+    position: absolute;
+    top: 217.6%;
+    left: 22.9%;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 90PX;
+    gap: 15px;
+}
+
+.informacoes a{
+    text-decoration: none;
+    color: white;
+}
+
+.aplicacoes{
+    position: absolute;
+    top: 260.6;
+    right: 18%;
+    margin-top: 61px;
+    gap: 190px;
+}

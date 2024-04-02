@@ -1,0 +1,197 @@
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #241103;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.info a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 55px;
+}
+
+.botao button{
+    background-color: #c9b24f;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 36%;
+}
+
+.text h1{
+    font-size: 100px;
+    text-decoration: underline;
+    text-shadow: 4px 4px 5px black;
+}
+
+.text p{
+    margin-top: 50px;
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+}
+
+.container2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container2 .sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reserva > h5{
+    position: absolute;
+    top: 138%;
+    margin-left: 35px;
+    color: #dba40b;
+    font-family: Verdana;
+}
+
+.reserva > h1{
+    font-size: 50px;
+    position: absolute;
+    top: 143%;
+    margin-left: 35px;
+    color: white;
+    font-family: arial;
+}
+
+.reserva > p{
+    position: absolute;
+    top: 157%;
+    margin-left: 35px;
+    color: white;
+    font-family: Verdana;
+}
+
+.reserva > button{
+    position: absolute;
+    top: 164%;
+    margin-left: 35px;
+    background-color: #c6aa69;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.sub img{
+    border-radius: 5px;
+}
+
+.container3{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container3 .lancamentos{
+    display: flex;
+    flex-direction: column;
+}
+
+.container3 .lancamentos h4{
+    position: absolute;
+    top: 182%;
+    left: 27.1%;
+    color: #c6aa69;
+    font-size: 20px;
+}
+
+.container3 .lancamentos h1{
+    position: absolute;
+    top: 185%;
+    left: 27.1%;
+    font-size: 3em;
+    color: #241103;
+}
+
+
+.container3 .pratos{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.container3 .pratos img{
+    border-radius: 5px;
+}
+
+.container4{
+    margin-top: 80px;
+    background-color: #241103;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.goumert{
+    position: absolute;
+    top: 228%;
+    left: 17%;
+}
+
+.icone1{
+    position: absolute;
+    top: 250%;
+    left: 19.7%;
+}
+
+.icone2{
+    position: absolute;
+    top: 251.6%;
+    left: 22.9%;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 90PX;
+    gap: 15px;
+}
+
+.informacoes a{
+    text-decoration: none;
+    color: white;
+}
+
+.aplicacoes{
+    position: absolute;
+    top: 257.6;
+    right: 18%;
+    margin-top: 41px;
+    gap: 190px;
+}
